@@ -43,8 +43,6 @@ tmElements_t tm;
 
 void setup(void)
 {
-    unsigned long currentmilis = millis();
-
     display.setBrightness(7);   //full brightness
 
     pinMode(2, INPUT);
